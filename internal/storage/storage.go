@@ -3,7 +3,7 @@ package storage
 import (
 	"fmt"
 
-	"github.com/DeadLandscape/course-storage/internal/file"
+	"github.com/DeadLandscape/course_storage/internal/file"
 
 	"github.com/google/uuid"
 )

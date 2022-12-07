@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/DeadLandscape/course-storage/internal/storage"
+	"github.com/DeadLandscape/course_storage/internal/storage"
 )
 
 func main() {
