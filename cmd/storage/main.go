@@ -15,11 +15,12 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	file, err = st.GetFile(file.ID)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println("File found:")
 	fmt.Println(file)
+
+	// file, err = st.GetFile(file.ID)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// fmt.Println("File found:")
+	// fmt.Println(file)
 }
